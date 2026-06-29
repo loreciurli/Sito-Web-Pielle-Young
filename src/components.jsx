@@ -120,11 +120,7 @@ function Header({ onOpenLead, onToggleTweaks }) {
               <img src="assets/logo-pl-fish.png" alt="Pielle Young"/>
               <span className="pyh-mark-sweep" aria-hidden="true"/>
             </span>
-            <span className="pyh-mark-wordmark" aria-hidden="true">
-              <span className="pmw-line"/>
-              <span className="pmw-text">EST. 2026 · LIVORNO</span>
-              <span className="pmw-line"/>
-            </span>
+
           </a>
 
           {/* Right rail */}

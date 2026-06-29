@@ -94,11 +94,6 @@ function Hero({ headline, variant, showCourtLines, onOpenLead }) {
       {/* Ambient floating dust */}
       <Dust count={20} />
 
-      {/* Vertical side label */}
-      <div className="hero-side-label" aria-hidden="true">
-        <span className="hsl-bar" />
-        <span>EST. 2026 · LIVORNO · BASKET ACADEMY</span>
-      </div>
 
       {/* Top-right index marker */}
       <div className="hero-index-marker" aria-hidden="true">
@@ -682,7 +677,7 @@ function Categorie({ onOpenLead }) {
           </Reveal>
           <Reveal as="h2" className="cat-title" delay={80}>
             <span className="ct-line">UN PERCORSO</span>
-            <span className="ct-line ct-line-accent">PER OGNI ETÀ.</span>
+            <span className="ct-line ct-line-accent">PER OGNI ET<span style={{fontFamily:"'Inter Tight','Arial',sans-serif",fontWeight:800,background:'linear-gradient(180deg,#FFE17A 0%,#FFC93C 55%,#C8951F 100%)',WebkitBackgroundClip:'text',backgroundClip:'text',WebkitTextFillColor:'transparent'}}>À</span>.</span>
           </Reveal>
           <Reveal as="p" className="cat-sub" delay={140}>Dal minibasket al pre-agonismo: ogni categoria ha allenatori dedicati, obiettivi tecnici e una proposta settimanale chiara.</Reveal>
         </div>
@@ -800,7 +795,7 @@ function Tariffe({ onOpenLead }) {
           </Reveal>
           <h2>Quote <span className="accent-word">trasparenti.</span></h2>
           <p className="cat-sub">
-            Tutto incluso, senza sorprese. Scegli la formula più adatta — il resto lo pensiamo noi.
+            Tutto incluso, senza sorprese. Scegli la formula più adatta — al resto ci pensiamo noi.
           </p>
         </div>
 
@@ -1165,7 +1160,7 @@ function LeadSection() {
             <span className="dim">07 · Iscrizioni aperte</span>
           </Reveal>
           <Reveal as="h2" className="lead-title" delay={80}>
-            ENTRA IN <span className="lead-accent"><span className="la-glow" aria-hidden="true">CAMPO</span><span className="la-text">CAMPO</span></span>.
+            ENTRA IN <span className="lead-accent"><span className="la-glow" aria-hidden="true">CAMPO</span><span className="la-text">CAMPO</span></span><span style={{color:'var(--gold)'}}>.</span>
           </Reveal>
           <Reveal as="p" className="lead-sub" delay={160}>
             Lascia un contatto: un nostro referente ti ricontatterà <b>in tempi brevi</b> per orari,
